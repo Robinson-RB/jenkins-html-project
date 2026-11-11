@@ -19,7 +19,7 @@ pipeline {
         stage('Docker Build') {
             steps {
                 echo 'Building Docker image'
-                bat 'docker build -t my-html-website:latest .'
+                bat '"C:/Users/mucyo/AppData/Local/Programs/DockerDesktop/resources/bin/docker.exe" build -t my-html-website:latest .'
             }
         }
 
